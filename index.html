@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>ASC ITMBU</title>
+  </head>
+  <body>
+    <!--Preloader-->
+    <div class="ball" data-splitting>
+      <div class="ball-top"></div>
+    </div>
+
+    <div class="phrase" data-splitting="items">
+      <span class="word slide" data-splitting="chars">AWS</span>
+      <span class="word slide" data-splitting="chars">Student Community</span>
+      <span class="word slide" data-splitting="chars">ITMBU</span>
+      <span class="word smiley" data-splitting="chars">:)</span>
+    </div>
+
+    <!--Header-->
+
+    <!--Preloader Script-->
+    import Splitting from "https://cdn.skypack.dev/splitting"; Splitting(); 
+    //Replay animation by hiding & showing the element again let el =
+    document.body; el.addEventListener("click", function (e) { el.hidden = true;
+    requestAnimationFrame(() => { el.hidden = false; }); });
+  </body>
+</html>
